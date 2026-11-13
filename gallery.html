@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Campus Gallery - Residential School. View photographs of academic life, modern laboratories, boarding accommodations, athletics, and fine arts activities.">
+  <title>Gallery | Residential School | Campus, Life & Activities</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Notice Bar -->
+  <div class="top-notice-bar">
+    <div class="container top-notice-inner">
+      <div class="top-notice-item">
+        <span class="top-notice-badge">Admissions Open</span>
+        <span>Admissions Open for Academic Year 2026–2027 • Grades 4 to 12</span>
+      </div>
+      <div class="top-notice-item">
+        <span>Campus Tour &amp; Interactive Days Scheduled Bi-Weekly</span>
+        <a href="admissions.html" style="color: var(--color-warm-gold); text-decoration: underline; margin-left: 8px; font-weight: 600;">Schedule Visit &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="brand-link" aria-label="Residential School Home">
+          <div class="brand-emblem" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zm-7 8.18v4.94C5 18.06 8.13 20.7 12 21.94c3.87-1.24 7-3.88 7-6.82v-4.94L12 13.5l-7-3.32z"/>
+            </svg>
+          </div>
+          <div class="brand-text-block">
+            <span class="brand-school-name">RESIDENTIAL SCHOOL</span>
+            <span class="brand-tagline">LEARN &bull; LIVE &bull; GROW</span>
+          </div>
+        </a>
+
+        <div class="nav-menu-wrapper">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="academics.html" class="nav-link">Academics</a></li>
+            <li><a href="residential-life.html" class="nav-link">Residential Life</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="student-life.html" class="nav-link">Student Life</a></li>
+            <li><a href="admissions.html" class="nav-link">Admissions</a></li>
+            <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="admissions.html" class="btn btn-gold btn-sm">Apply for Admission</a>
+          </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24">
+            <path stroke_linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero Banner -->
+  <section class="page-hero" style="background-image: url('assets/images/school-campus.webp');">
+    <div class="container">
+      <div class="page-hero-content reveal">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="divider">/</span>
+          <span>Gallery</span>
+        </nav>
+        <h1>Campus Moments &amp; Gallery</h1>
+        <p class="lead">
+          Explore life at Residential School through our photo gallery spanning academic inquiries, boarding life, athletics, arts, and ceremonies.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section section-bg-white">
+    <div class="container">
+      <!-- Category Filter Tabs -->
+      <div class="gallery-filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="campus">Campus</button>
+        <button class="filter-btn" data-filter="classrooms">Classrooms</button>
+        <button class="filter-btn" data-filter="boarding">Boarding Life</button>
+        <button class="filter-btn" data-filter="academics">Academics</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+        <button class="filter-btn" data-filter="arts">Arts &amp; Activities</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- 1 -->
+        <div class="gallery-item reveal" data-category="campus">
+          <img src="assets/images/gallery-01.webp" alt="Lush Green Campus Panorama">
+          <div class="gallery-overlay">
+            <h4>Lush Green Campus Grounds</h4>
+            <span>Campus Panorama</span>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="gallery-item reveal" data-category="classrooms">
+          <img src="assets/images/classroom.webp" alt="Smart Interactive Classroom">
+          <div class="gallery-overlay">
+            <h4>Interactive Smart Classroom</h4>
+            <span>Modern Classrooms</span>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="gallery-item reveal" data-category="boarding">
+          <img src="assets/images/boarding-room.webp" alt="Comfortable Residential Dormitory">
+          <div class="gallery-overlay">
+            <h4>Residential Dormitory &amp; Desks</h4>
+            <span>Boarding Life</span>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="gallery-item reveal" data-category="academics">
+          <img src="assets/images/students-learning.webp" alt="Collaborative Peer Study">
+          <div class="gallery-overlay">
+            <h4>Collaborative Seminar Study</h4>
+            <span>Academics &amp; Learning</span>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="gallery-item reveal" data-category="sports">
+          <img src="assets/images/sports-facility.webp" alt="Athletic Track and Playing Grounds">
+          <div class="gallery-overlay">
+            <h4>Athletics Field &amp; Running Tracks</h4>
+            <span>Sports &amp; Athletics</span>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="gallery-item reveal" data-category="arts">
+          <img src="assets/images/arts-activities.webp" alt="Fine Arts and Creative Workshop">
+          <div class="gallery-overlay">
+            <h4>Creative Arts Atelier</h4>
+            <span>Arts &amp; Activities</span>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="gallery-item reveal" data-category="events">
+          <img src="assets/images/school-events.webp" alt="Annual Prize Giving Assembly">
+          <div class="gallery-overlay">
+            <h4>Annual Prize Ceremony</h4>
+            <span>Campus Traditions &amp; Events</span>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="gallery-item reveal" data-category="academics">
+          <img src="assets/images/science-lab.webp" alt="Physics and Chemistry Laboratory">
+          <div class="gallery-overlay">
+            <h4>Hands-on STEM Laboratory</h4>
+            <span>Scientific Research</span>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="gallery-item reveal" data-category="classrooms">
+          <img src="assets/images/computer-lab.webp" alt="Computer Science Laboratory">
+          <div class="gallery-overlay">
+            <h4>Advanced Computing Suite</h4>
+            <span>Digital Literacy</span>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="gallery-item reveal" data-category="boarding">
+          <img src="assets/images/dining-hall.webp" alt="Students Dining Together">
+          <div class="gallery-overlay">
+            <h4>Communal Evening Dining</h4>
+            <span>Boarding Fellowship</span>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="gallery-item reveal" data-category="academics">
+          <img src="assets/images/school-library.webp" alt="Central Reading Library">
+          <div class="gallery-overlay">
+            <h4>Central Knowledge Library</h4>
+            <span>Research &amp; Reading</span>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="gallery-item reveal" data-category="campus">
+          <img src="assets/images/campus-garden.webp" alt="Landscaped Memorial Gardens">
+          <div class="gallery-overlay">
+            <h4>Landscaped Botanical Gardens</h4>
+            <span>Serene Campus</span>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="gallery-item reveal" data-category="classrooms">
+          <img src="assets/images/teacher-classroom.webp" alt="Faculty Mentoring Students in Class">
+          <div class="gallery-overlay">
+            <h4>Faculty Mentorship Session</h4>
+            <span>Inspired Teaching</span>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="gallery-item reveal" data-category="sports">
+          <img src="assets/images/gallery-04.webp" alt="Indoor Table Tennis and Badminton">
+          <div class="gallery-overlay">
+            <h4>Indoor Sports Pavilion</h4>
+            <span>Recreation &amp; Fitness</span>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="gallery-item reveal" data-category="arts">
+          <img src="assets/images/gallery-05.webp" alt="Music Ensemble in Rehearsal">
+          <div class="gallery-overlay">
+            <h4>Music Rehearsal Studio</h4>
+            <span>Melodic Harmony</span>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div class="gallery-item reveal" data-category="boarding">
+          <img src="assets/images/gallery-03.webp" alt="Students Conversing in Common Lounge">
+          <div class="gallery-overlay">
+            <h4>Boarding House Common Lounge</h4>
+            <span>Fraternal Brotherhood</span>
+          </div>
+        </div>
+
+        <!-- 17 -->
+        <div class="gallery-item reveal" data-category="events">
+          <img src="assets/images/gallery-06.webp" alt="Campus Cultural Celebration Evening">
+          <div class="gallery-overlay">
+            <h4>Festival of Lights &amp; Traditions</h4>
+            <span>Cultural Unity</span>
+          </div>
+        </div>
+
+        <!-- 18 -->
+        <div class="gallery-item reveal" data-category="campus">
+          <img src="assets/images/school-campus.webp" alt="Heritage Academic Block Facade">
+          <div class="gallery-overlay">
+            <h4>Central Academic Quadrangle</h4>
+            <span>Architecture &amp; Lawns</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal Container -->
+  <div id="galleryLightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo Preview Lightbox">
+    <div class="lightbox-content-wrapper">
+      <button class="lightbox-close" aria-label="Close Lightbox">
+        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Image">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <img src="" alt="" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+      <div class="lightbox-category"></div>
+      <button class="lightbox-nav-btn lightbox-next" aria-label="Next Image">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Section: CTA Banner -->
+  <section class="section section-bg-light">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Experience These Spaces in Person</h2>
+        <p>Photographs offer just a glimpse. Visit our serene campus to witness our vibrant academic and boarding community in action.</p>
+        <div class="cta-banner-buttons">
+          <a href="admissions.html" class="btn btn-gold btn-lg">Apply for Admission</a>
+          <a href="contact.html" class="btn btn-outline-white btn-lg">Schedule a Walkthrough</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <a href="index.html" class="brand-link" style="margin-bottom: 18px;">
+            <div class="brand-emblem" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zm-7 8.18v4.94C5 18.06 8.13 20.7 12 21.94c3.87-1.24 7-3.88 7-6.82v-4.94L12 13.5l-7-3.32z"/>
+              </svg>
+            </div>
+            <div class="brand-text-block">
+              <span class="brand-school-name" style="color: #fff;">RESIDENTIAL SCHOOL</span>
+              <span class="brand-tagline">LEARN &bull; LIVE &bull; GROW</span>
+            </div>
+          </a>
+          <p>
+            A premier residential institution fostering academic distinction, personal character, lifelong friendships, and wholesome growth within a secure, serene, and modern campus environment.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z"/></svg></a>
+            <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">&rsaquo; About Our School</a></li>
+            <li><a href="academics.html">&rsaquo; Academic Framework</a></li>
+            <li><a href="facilities.html">&rsaquo; Campus Facilities</a></li>
+            <li><a href="student-life.html">&rsaquo; Life &amp; Co-Curriculars</a></li>
+            <li><a href="gallery.html">&rsaquo; Photo Gallery</a></li>
+            <li><a href="contact.html">&rsaquo; Directions &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Residential &amp; Care</h4>
+          <ul class="footer-links">
+            <li><a href="residential-life.html">&rsaquo; Boarding Life Overview</a></li>
+            <li><a href="residential-life.html#houses">&rsaquo; House System</a></li>
+            <li><a href="residential-life.html#dining">&rsaquo; Dining &amp; Nutrition</a></li>
+            <li><a href="residential-life.html#pastoral">&rsaquo; Pastoral Care &amp; Health</a></li>
+            <li><a href="admissions.html">&rsaquo; Admission Process</a></li>
+            <li><a href="admissions.html#checklist">&rsaquo; Documents Checklist</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Campus Enquiries</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Demo Campus, Learning Avenue, Sample City, India &ndash; 000000</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>+91 00000 00000 / +91 00000 00001</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>info@example.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Visiting Hours: Mon&ndash;Sat, 9:00 AM &ndash; 4:30 PM</span>
+          </div>
+          <div class="footer-demo-badge">Demo Institution Presentation &bull; Fictional School</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Residential School. All rights reserved. Demo educational portal.</div>
+        <div>Designed with a commitment to excellence, integrity, and student wellbeing.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top of page">
+    <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Shared Script -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
